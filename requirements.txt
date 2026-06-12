@@ -1,0 +1,27 @@
+# ── Dashboard ────────────────────────────────────────────────────────────────
+streamlit>=1.35.0
+yfinance>=0.2.40
+pandas>=2.0.0
+numpy>=1.26.0
+plotly>=5.18.0
+
+# ── Technical analysis ────────────────────────────────────────────────────────
+pandas-ta>=0.3.14b0
+
+# ── Machine learning ─────────────────────────────────────────────────────────
+scikit-learn>=1.4.0
+joblib>=1.3.0
+
+# ── AI / Gemini ───────────────────────────────────────────────────────────────
+# Uses google-genai (new SDK): from google import genai
+# NOT google-generativeai (deprecated SDK)
+google-genai>=2.0.0
+
+# ── Sentiment analysis ────────────────────────────────────────────────────────
+vaderSentiment>=3.3.2
+
+# ── Environment / config ──────────────────────────────────────────────────────
+python-dotenv>=1.0.0
+
+# ── Backtesting (optional — Backtest Lab tab) ─────────────────────────────────
+backtesting>=0.3.3
