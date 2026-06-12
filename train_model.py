@@ -3,7 +3,7 @@ import json
 import shutil
 import yfinance as yf
 import pandas as pd
-import pandas_ta as ta
+import indicators as ta
 import numpy as np
 from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.metrics import classification_report, roc_auc_score

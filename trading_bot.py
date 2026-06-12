@@ -1,6 +1,6 @@
 import yfinance as yf
 import pandas as pd
-import pandas_ta as ta
+import indicators as ta
 from backtesting import Backtest, Strategy
 
 class TrailingStopStrategy(Strategy):
