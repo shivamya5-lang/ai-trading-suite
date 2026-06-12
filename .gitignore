@@ -161,8 +161,8 @@ cython_debug/
 
 # ── Project-specific ─────────────────────────────────────────────────────────
 
-# ML model files (large binary — regenerate with train_model.py)
-*.pkl
+# ML model backups only — main model files are committed so Streamlit Cloud can load them
+*_backup.pkl
 
 # Personal / runtime data
 portfolio.json
