@@ -1,0 +1,57 @@
+{
+  "initial_balance": 600.0,
+  "cash": 15.1,
+  "trades": [
+    {
+      "id": "b7e5c086",
+      "ticker": "NFLX",
+      "entry_price": 100.0,
+      "target_price": 104.0,
+      "stop_price": 98.0,
+      "quantity": 6,
+      "investment": 600.0,
+      "entry_date": "2026-06-09",
+      "status": "STOPPED",
+      "exit_price": 81.51,
+      "exit_date": "2026-06-09",
+      "pnl_inr": -110.94,
+      "pnl_pct": -18.49,
+      "exit_reason": "Take Profit Hit",
+      "notes": ""
+    },
+    {
+      "id": "5e868811",
+      "ticker": "NFLX",
+      "entry_price": 100.0,
+      "target_price": 104.0,
+      "stop_price": 98.0,
+      "quantity": 4,
+      "investment": 400.0,
+      "entry_date": "2026-06-09",
+      "status": "STOPPED",
+      "exit_price": 81.51,
+      "exit_date": "2026-06-09",
+      "pnl_inr": -73.96,
+      "pnl_pct": -18.49,
+      "exit_reason": "Take Profit Hit",
+      "notes": ""
+    },
+    {
+      "id": "3907cb90",
+      "ticker": "NVDA",
+      "entry_price": 100.0,
+      "target_price": 104.0,
+      "stop_price": 98.0,
+      "quantity": 4,
+      "investment": 400.0,
+      "entry_date": "2026-06-10",
+      "status": "OPEN",
+      "exit_price": null,
+      "exit_date": null,
+      "pnl_inr": null,
+      "pnl_pct": null,
+      "exit_reason": null,
+      "notes": ""
+    }
+  ]
+}
